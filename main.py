@@ -40,7 +40,7 @@ nrTweets = 10
 starter = ["walk", "Walk", "Performer", "a", "A", "Performers", "Write", "write", "Make", "make", "Reflect",
            "perform", "an", "document", "attempt" "Create", "Use", "Mechanicalize", "look", "Humanize", "observe"]
 replystarter = [" ok now: ", " how about: ", " now try: ", " this one's for you: ",
-                " Dont do this: ", "try this one:"]
+                " Dont do this: ", " try this one: "]
 
 # sheduling tweet interval
 # 0.012 for testing and 3.0 for real functionality
