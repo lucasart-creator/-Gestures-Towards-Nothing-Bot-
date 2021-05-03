@@ -237,7 +237,6 @@ attempt to perform the daily activity in reverse.
 Create a poem with the @whatthreewords app.
 do the dishes!.
 perform @OblStrats most recent tweet.
-Make @conceptsbot most recent tweet.
 Make @artassignbot most recent tweet.
 perform @GraphicScoreBot most recent tweet.
 Play an instrument in a way you are not supposed to.
