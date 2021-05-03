@@ -149,14 +149,14 @@ while True:
         last_tweet_time = dt.now()
         make_random_tweet()
 
-    # reply
-    last_seen_id = retrieve_id(file)
-    mentions = api.mentions_timeline(last_seen_id, tweet_mode="extended")
+    # reply --- currently not working so # out for now ---
+#     last_seen_id = retrieve_id(file)
+#     mentions = api.mentions_timeline(last_seen_id, tweet_mode="extended")
 
-    for mention in reversed(mentions):
-        last_seen_id = mention.id
-        store_id(last_seen_id, file)
-        make_random_reply()
+#     for mention in reversed(mentions):
+#         last_seen_id = mention.id
+#         store_id(last_seen_id, file)
+#         make_random_reply()
 
     #NOTE - like/favourite
     for search_string in search_strings:
